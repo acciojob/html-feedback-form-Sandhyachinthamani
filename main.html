@@ -8,16 +8,16 @@
 
 <body>
 	
-	<form method=get>
+	<form method="get">
 		<caption>Feedback Form</caption>
 		<label for="name">Name</label>
-		<input type="text" id="name">
+		<input type="text" id="name" minlength="3" maxlength="50">
 		<label for="portfolio">Portfolio</label>
 		<input type="url" id="portfolio">
 		<label for="favColor">Favorite Color</label>
 		<input type="color" id="favColor">
 		<label for="likeness">Likeness</label>
-		<input type="range" id="likeness">
+		<input type="range" id="likeness" min="1" max="100">
 
 	</form>
     <script type="text/javascript" src="./script.js">

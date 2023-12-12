@@ -11,13 +11,14 @@
 	<form>
 		<caption>Feedback Form</caption>
 		<label for="name">Name</label>
-		<input type="text" formmethod="post" id="name" minlength="3" maxlength="50" required>
+		<input type="text" id="name" minlength="3" maxlength="50" required>
 		<label for="portfolio">Portfolio</label>
-		<input type="url" formmethod="post" id="portfolio" required>
+		<input type="url" id="portfolio" required>
 		<label for="favColor">Favorite Color</label>
-		<input type="color" formmethod="post" id="favColor">
+		<input type="color" id="favColor">
 		<label for="likeness">Likeness</label>
-		<input type="range" formmethod="post" id="likeness" min="1" max="100">
+		<input type="range" id="likeness" min="1" max="100">
+		<input type="submit" formmethod="post" value="Submit using POST">
 
 	</form>
     <script type="text/javascript" src="./script.js">
